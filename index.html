@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Acessórios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="https://cdn.leonardo.ai/users/6a4b60f9-3651-492c-b2d2-f964f2aa5441/generations/f67ec30b-d608-446e-8c49-0ad1b976dd38/Leonardo_Phoenix_A_logo_design_for_a_website_named_Lunar_incor_3.jpg" alt="Logo" class="logo"> 
+        <div class="logo">lunar</div>
+
+    </header>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="mostrarAba('inicio')">Início</a></li>
+                <li><a href="#" onclick="mostrarAba('produtos')">Produtos</a></li>
+                <li><a href="#" onclick="mostrarAba('carrinho')">Carrinho</a></li>
+                <li><a href="#" onclick="mostrarAba('contato')">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="inicio" class="aba">
+            <br><br>
+            <h3>Bem-vindo à Lunar!</h3> 
+            <p> Na Lunar, acreditamos que cada acessório conta uma história. Nossa loja é dedicada a oferecer uma seleção única de peças que não apenas complementam o seu look, mas também refletem a sua personalidade. Desde colares delicados até brincos ousados, cada item é escolhido com carinho para trazer um toque especial ao seu dia a dia.</p>
+          <h3>Nossa Missão</h3>
+            <p>Nosso objetivo é proporcionar a você uma experiência de compra incrível, repleta de acessórios de alta qualidade, com designs que vão do clássico ao contemporâneo. Queremos que você se sinta confiante e radiante em cada peça que escolher.</p>
+            <h3>Coleções Exclusivas</h3>
+            <p>Explore nossas coleções que são inspiradas nas fases da lua, cada uma trazendo uma energia única:
+                <br>
+                Nova: Peças minimalistas para o dia a dia.
+                <br>
+                Crescente: Acessórios vibrantes que trazem vida ao seu visual.
+                <br>
+                Cheia: Itens statement que roubam a cena.
+                <br>
+                Minguante: Elegância e sofisticação para momentos especiais.</p>
+    
+        </section>
+        <div class="content">
+        
+        </div>
+                <br><br>
+                
+        <section id="produtos" class="aba" style="display: none;">
+            <h2>Nossos Produtos</h2>
+            <main>
+                <main>
+                    <section class="produtos">
+            <section class="produtos"></section>
+            <div class="produto">
+                <img src="2.jpg" alt="Colar Lunar">
+                <h2>anel planetas </h2>
+                <p>Características: Prata925, design minimalista.</p>
+                <span>R$ 89,90</span>
+                 <br><br>
+                <button onclick="adicionarAoCarrinho('Acessório 1', 29.90)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="4.jpg" alt="Brinco Estelar">
+                <h2>Brinco sol e lua</h2>
+                <p>Características: Ouro folheado, brilho intenso.</p>
+                <span>R$ 79,90</span>
+                <br><br>
+                <button onclick="adicionarAoCarrinho('Acessório 2', 49.90)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="6.jpg" alt="Pulseira Galáxia">
+                <h2>Pulseira Galáxia</h2>
+                <p>Características: Couro ecológico, fecho ajustável.</p>
+                <span>R$ 49,90</span>
+                <br><br>
+                <button onclick="adicionarAoCarrinho('Acessório 2', 49.90)">Adicionar ao Carrinho</button>
+</div>
+<div class="produto">
+    <img src="6.jpg" alt="Pulseira Galáxia">
+    <h2>Pulseira Galáxia</h2>
+    <p>Características: Couro ecológico, fecho ajustável.</p>
+    <span>R$ 49,90</span>
+    <br><br>
+    <button onclick="adicionarAoCarrinho('Acessório 2', 49.90)">Adicionar ao Carrinho</button>
+    </div>
+            <!-- Adicione mais produtos conforme necessário -->
+        </section>
+<div>
+        <section id="carrinho" class="aba" style="display: none;">
+            <h2>Carrinho</h2>
+            <ul id="itensCarrinho"></ul>
+            <p id="totalCarrinho">Total: R$ 0,00</p>
+            <button>Remover</button>
+        </section>
+    </div>
+        <section id="contato" class="aba" style="display: none;">
+        </nav>
+        <section class="contact-info">
+            <br><br>
+            <h2>Informações de Contato</h2>
+            <p><strong>Email:</strong> contato@exemplo.com</p>
+            <p><strong>Telefone:</strong> (11) 1234-5678</p>
+            <p><strong>Endereço:</strong> Rua Exemplo, 123 - São Paulo, SP</p>
+        </section>
+    <br><br>
+        <section class="contact-form">
+            <h2>Formulário de Contato</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+    <br><br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+    <br><br>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+    <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    
+        <section class="map">
+            <br><br>
+            <h2>Nosso Local</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.901236220059!2d-46.65600898436845!3d-23.56432498468109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59caa453d7a3%3A0x7d7555e7de633839!2sRua%20Exemplo%2C%20123%20-%20Centro%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001000-000!5e0!3m2!1spt-BR!2sbr!4v1631321249925!5m2!1spt-BR!2sbr"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+</div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2024 todos os direitos reservados.</p>
+        <p>endereço:rua exemplo.123 - cidade xxxx, BR </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

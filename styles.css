@@ -1,0 +1,145 @@
+body {
+    background-color: darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;   
+    line-height: 1.6;
+}
+
+header {
+    background-color:black;
+    align-items: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    padding: 5px;
+}
+.nav {
+            
+    display: flex;
+    gap: 15px;
+    overflow: hidden;
+    background-color: darkslategray;
+    overflow: hidden;
+}
+
+nav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+background-color: cadetblue;
+transition: 0.3s;
+}
+
+.logo {
+    width: 100px; /* Ajuste o tamanho conforme sua logo */
+    margin-bottom: 20px;
+    }
+.content{
+    padding: 10px;
+    text-align: center;
+}
+
+.content img{
+        width: 10px;
+         margin-bottom: 5px;
+           
+        }
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.produto {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: lightslategray;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 600px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#carrinho {
+    background: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+footer p{
+    margin: 5px;
+}
+h3{
+    color: white;
+    font-size: 20px;
+}
+
+p{
+    color: white;
+}
